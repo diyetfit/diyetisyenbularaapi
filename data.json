@@ -1,11 +1,11 @@
 [
     {
         "name":"Adana",
-        "value":1,
+        "id":1,
         "down":[
             {
                 "name":"Seyhan",
-                "value":101,
+                "id":101,
                 "places":[
                     {
                         "name":"01 Beslenme Danışmanlığı",
@@ -21,7 +21,7 @@
             },
             {
                 "name":"Ceyhan",
-                "value":102,
+                "id":102,
                 "places":[
                     {
                         "name":"01_1 Beslenme Danışmanlığı"
@@ -35,11 +35,11 @@
     },
     {
         "name":"Edirne",
-        "value":22,
+        "id":22,
         "down":[
             {
                 "name":"Merkez",
-                "value":2201,
+                "id":2201,
                 "places":[
                     {
                         "name":"22 Özel",
