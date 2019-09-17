@@ -19,7 +19,7 @@ app.get("/city", (req, res) => {
 });
 
 
-/*app.get("/units/:id", (req, res) => {
+app.get("/city/:id", (req, res) => {
    const itemId = req.params.id;
    const item = data.find(_item => _item.id == itemId);
 
@@ -28,7 +28,7 @@ app.get("/city", (req, res) => {
    } else {
       res.json({ message: `item ${itemId} doesn't exist`})
    }
-});*/
+});
 
 app.listen(process.env.PORT || PORT, () =>{
 console.log('Server http://localhost:'+ PORT + ' running.')  
